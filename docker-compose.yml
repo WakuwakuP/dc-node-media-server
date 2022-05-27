@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  stream:
+    image: illuspas/node-media-server
+    ports:
+      - 1935:1935
+      - 80:8000
+      - 443:8443
